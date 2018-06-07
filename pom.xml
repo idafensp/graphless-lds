@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>oeg.upm.isantana</groupId>
+  <artifactId>ldviz</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>ldviz</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+	   <groupId>org.apache.jena</groupId>
+	   <artifactId>apache-jena-libs</artifactId>
+	   <type>pom</type>
+	   <version>3.4.0</version>
+	</dependency>
+    <dependency>
+	   <groupId>org.neo4j.driver</groupId>
+	   <artifactId>neo4j-java-driver</artifactId>
+	   <version>1.1.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.neo4j/neo4j-unsafe -->
+	<dependency>
+	    <groupId>org.neo4j</groupId>
+	    <artifactId>neo4j-unsafe</artifactId>
+	    <version>3.3.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.neo4j/server-api -->
+	<dependency>
+	    <groupId>org.neo4j</groupId>
+	    <artifactId>server-api</artifactId>
+	    <version>3.3.0-alpha05</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.neo4j/neo4j-kernel -->
+	<dependency>
+	    <groupId>org.neo4j</groupId>
+	    <artifactId>neo4j-kernel</artifactId>
+	    <version>3.3.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.neo4j/neo4j-lucene-index -->
+	<dependency>
+	    <groupId>org.neo4j</groupId>
+	    <artifactId>neo4j-lucene-index</artifactId>
+	    <version>3.3.0</version>
+	</dependency>
+		
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>5.1.6</version>
+	</dependency>
+	    	
+	    	
+	<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
+	<dependency>
+	    <groupId>commons-dbcp</groupId>
+	    <artifactId>commons-dbcp</artifactId>
+	    <version>1.2.2</version>
+	</dependency>
+		    	
+			
+  </dependencies>
+</project>
